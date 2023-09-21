@@ -1,0 +1,100 @@
+# api_config.yaml
+
+# Request Parsers
+user_parser:
+  name:
+    type: str
+    required: true
+    help: Name cannot be blank
+  email:
+    type: str
+    required: true
+    help: Email cannot be blank
+  password:
+    type: str
+    required: true
+    help: Password cannot be blank
+
+venue_parser:
+  name:
+    type: str
+    required: true
+    help: Name cannot be blank
+  address:
+    type: str
+    required: true
+    help: Address cannot be blank
+
+movie_parser:
+  title:
+    type: str
+    required: true
+    help: Title cannot be blank
+  start_timing:
+    type: str
+    required: true
+    help: Start timing cannot be blank
+  end_timing:
+    type: str
+    required: true
+    help: End timing cannot be blank
+  ticket_price:
+    type: int
+    required: true
+    help: Ticket price cannot be blank
+  venue_id:
+    type: int
+    required: false
+    help: Venue id cannot be blank
+
+booking_parser:
+  user_id:
+    type: int
+    required: true
+    help: User id cannot be blank
+  movie_id:
+    type: int
+    required: true
+    help: Movie id cannot be blank
+  seats:
+    type: str
+    required: true
+    help: Seats cannot be blank
+
+# Resources
+UserResource:
+  get: true
+  put: true
+  delete: true
+
+UserListResource:
+  post: true
+  get: true
+
+VenueResource:
+  get: true
+  put: true
+  delete: true
+
+VenueListResource:
+  post: true
+  get: true
+
+MovieResource:
+  get: true
+  put: true
+  delete: true
+
+MovieListResource:
+  post: true
+  get: true
+
+BookingResource:
+  get: true
+  put: true
+  delete: true
+
+BookingListResource:
+  post: true
+  get: true
+    
