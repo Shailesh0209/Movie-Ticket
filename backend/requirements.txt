@@ -12,7 +12,7 @@ click-plugins==1.1.1
 click-repl==0.3.0
 colorama==0.4.6
 command-not-found==0.3
-cryptography==3.4.8
+cryptography==41.0.4
 dbus-python==1.2.18
 distro==1.7.0
 distro-info===1.1build1
