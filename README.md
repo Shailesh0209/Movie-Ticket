@@ -30,6 +30,18 @@
 5. run celery workers `celery -A workers.celery worker -l info`
 6. run celery beats `celery -A workers.celery beat --max-interval 1 -l info`
 
+## Technologies used 
+● Vue.js: A JavaScript framework for building user interfaces. It allows for creating dynamic and responsive web applications with its component-based architecture. ● BootstrapVue: A library that integrates Bootstrap components with Vue.js, providing a convenient way to create visually appealing and responsive user interfaces. ● Vuex: A state management pattern and library for Vue.js applications. It centralizes and manages the state of the application, making it easier to share data between components. 
+● Vue Router: A routing library for Vue.js applications. It enables navigation between different views and components in a single-page application. 
+● Axios: A popular HTTP client for making asynchronous HTTP requests. It's used to communicate with the backend API to fetch and send data. 
+● Flask: A lightweight and flexible Python web framework. It's used to build the backend API that handles data storage, retrieval, and manipulation. 
+● Flask-RESTful: An extension for Flask that simplifies the creation of RESTful APIs. It helps in defining API resources and their endpoints. 
+● Flask-CORS: An extension for handling Cross-Origin Resource Sharing (CORS) in Flask applications. It allows the frontend to make requests to the backend from a different domain. 
+● SQLAlchemy: A powerful SQL toolkit and Object-Relational Mapping (ORM) library for Python. It's used to interact with the database and manage database operations. ● SQLite: A lightweight, serverless, and self-contained database engine. It's used as the database system to store and manage application data. 
+● JWT (JSON Web Tokens): A compact and self-contained way for securely transmitting information between parties as a JSON object. It's used for user authentication and authorization. 
+● Python: The programming language used for developing the Flask backend and handling server-side logic.
+
+
 ### if you have any doubts, reach me at shailxiitm@gmail.com
 
 
