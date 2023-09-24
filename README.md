@@ -4,6 +4,15 @@ The application has two user roles: administrators and users. Admin can add, edi
 delete venue details and movies through modals. Users can view and book venues and
 movies.
 
+# Frameworks used
+- Flask for API
+- VueJS for UI 
+- Jinja2 templates 
+- Bootstrap
+- SQLite for database 
+- Redis for caching
+- Redis and Celery for batch jobs
+
 
 # Steps to run my project
 1. Create a virtual environment `python3 -m venv env` and then activate it `venv/scripts/activate` or `venv/bin/activate`.
