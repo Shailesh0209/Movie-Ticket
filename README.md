@@ -12,6 +12,13 @@ movies.
 - SQLite for database 
 - Redis for caching
 - Redis and Celery for batch jobs
+  - Scheduled Job - Daily reminders on Google Chat using webhook or Email
+  - Scheduled Job - Monthly Entertainment Report
+  - User Triggered Async Job - Export as CSV
+- Flask-Caching
+  - Added caching wherever required to increase the performance
+  - Added cache expiry 
+  - API Performance also improved
 
 
 ## Steps to run my project
