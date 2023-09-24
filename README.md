@@ -1,8 +1,9 @@
 # Movie-Ticket-Project
-This project involves building a Vue.js web application for managing venues, and movies.
-The application has two user roles: administrators and users. Admin can add, edit, and
-delete venue details and movies through modals. Users can view and book venues and
-movies.
+- This project involves building a Vue.js web application for managing venues, and movies.
+- The application has two user roles: administrators and users.
+- Admin can add, edit, and delete venue details and movies through modals.
+- Users can view and book venues and movies.
+- Admin and Users can search venue or movie name using search box.
 
 ## Frameworks used
 - Flask for API
