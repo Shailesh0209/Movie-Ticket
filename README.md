@@ -4,7 +4,7 @@ The application has two user roles: administrators and users. Admin can add, edi
 delete venue details and movies through modals. Users can view and book venues and
 movies.
 
-# Frameworks used
+## Frameworks used
 - Flask for API
 - VueJS for UI 
 - Jinja2 templates 
@@ -14,7 +14,7 @@ movies.
 - Redis and Celery for batch jobs
 
 
-# Steps to run my project
+## Steps to run my project
 1. Create a virtual environment `python3 -m venv env` and then activate it `venv/scripts/activate` or `venv/bin/activate`.
 2. Install requirements.txt file `pip install -r requirements.txt`.
 3. run backend `python3 app.py`
@@ -22,6 +22,6 @@ movies.
 5. run celery workers `celery -A workers.celery worker -l info`
 6. run celery beats `celery -A workers.celery beat --max-interval 1 -l info`
 
-## if you have any doubts, reach me at shailxiitm@gmail.com
+### if you have any doubts, reach me at shailxiitm@gmail.com
 
 
