@@ -47,7 +47,10 @@
 - JWT (JSON Web Tokens): A compact and self-contained way for securely transmitting information between parties as a JSON object. It's used for user authentication and authorization. 
 - Python: The programming language used for developing the Flask backend and handling server-side logic.
 
-
+## ...Connect with me
+- [LinkedIn](https://www.linkedin.com/in/shailx876/)
+- [Insta](https://www.instagram.com/shailx_kr/)
+- [Kaggle](https://www.kaggle.com/shailx)
 ### if you have any doubts, reach me at shailxiitm@gmail.com
 
 
