@@ -14,6 +14,9 @@
 5. run celery workers `celery -A workers.celery worker -l info`
 6. run celery beats `celery -A workers.celery beat --max-interval 1 -l info`
 
+
+[![Presentation video](https://i.ytimg.com/vi/5y0l0qwQ554/maxresdefault.jpg)](https://www.youtube.com/watch?v=5y0l0qwQ554)
+
 ## Frameworks used
 - Flask for API
 - VueJS for UI 
